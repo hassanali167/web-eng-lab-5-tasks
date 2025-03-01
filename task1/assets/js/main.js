@@ -3,6 +3,7 @@ const showHiddenPassword = (inputPassword, inputIcon) => {
   const input = document.getElementById(inputPassword),
         iconEye = document.getElementById(inputIcon)
 
+
   iconEye.addEventListener('click', () => {
     // Change password to text
     if (input.type === 'password') {
