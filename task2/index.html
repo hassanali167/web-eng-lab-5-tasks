@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nest Chat - Home</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">Nest Chat</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Sign Up</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+        <div class="menu-toggle">&#9776;</div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to Nest Chat</h1>
+        <p>Connect, Chat, and Stay in Touch with Friends & Family</p>
+        <a href="#" class="cta-button">Get Started</a>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <h2>Why Choose Nest Chat?</h2>
+        <div class="feature-grid">
+            <div class="feature-box">
+                <h3>Secure Messaging</h3>
+                <p>End-to-end encrypted chats to keep your messages private.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Group Chats</h3>
+                <p>Create groups and connect with multiple friends at once.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Voice & Video Calls</h3>
+                <p>High-quality voice and video calls for free.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Nest Chat. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // Responsive Menu Toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>
